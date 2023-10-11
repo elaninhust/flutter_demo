@@ -60,6 +60,7 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>ShareMedia-$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+                <string>ivan</string>
 			</array>
 		</dict>
 	</array>

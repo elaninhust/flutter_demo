@@ -1,14 +1,11 @@
 import 'dart:io';
-import 'package:country_codes/country_codes.dart';
-import 'package:flutter/cupertino.dart';
+// import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/demo_04_animation/my_first_page.dart';
+// import 'package:flutter_demo/demo_04_animation/my_first_page.dart';
 
 import 'package:share_handler/share_handler.dart';
 
 void main() async {
-  // WidgetsFlutterBinding.ensureInitialized();
-  // await CountryCodes.init();
   return runApp(const MyApp());
 }
 
@@ -64,24 +61,6 @@ class _MyAppState extends State<MyApp> {
                       ElevatedButton(
                         onPressed: () async {
                           print('media: ${media?.content}');
-
-                          // await CountryCodes.init();
-
-                          // final Locale deviceLocale =
-                          //     CountryCodes.getDeviceLocale()!;
-                          // print(deviceLocale.languageCode); // Displays en
-                          // print(deviceLocale.countryCode);
-
-                          // final CountryDetails details =
-                          //     CountryCodes.detailsForLocale(
-                          //         Localizations.localeOf(context));
-
-                          // print(details
-                          //     .alpha2Code); // Displays alpha2Code, displays PT.
-                          // print(details
-                          //     .dialCode); // Displays the dial code for PT, +351.
-                          // print(details
-                          //     .name); // Displays the extended name, Portugal.
 
                           // ShareHandlerPlatform.instance.recordSentMessage(
                           //   conversationIdentifier:
