@@ -40,7 +40,7 @@ class OnboardingExample extends StatelessWidget {
           ),
         ),
         // itemCount: pages.length,
-        // duration: const Duration(milliseconds: 1500),
+        duration: const Duration(milliseconds: 800),
         // opacityFactor: 2.0,
         // scaleFactor: 0.2,
         // verticalPosition: 0.7,
